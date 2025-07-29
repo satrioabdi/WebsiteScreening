@@ -1,0 +1,84 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.navbar {
+background: white;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #ccc;
+}
+
+.navbar nav a {
+margin: 0 10px;
+text-decoration: none;
+color: black;
+}
+
+.screening-button {
+background-color: #f9a825;
+padding: 5px 15px;
+border-radius: 5px;
+color: white;
+}
+
+main {
+padding: 30px;
+text-align: center;
+}
+
+.subtitle {
+color: #444;
+}
+
+.form-section {
+background: #f9f9f9;
+margin: 30px auto;
+padding: 20px;
+max-width: 500px;
+border-radius: 10px;
+border: 1px solid #ddd;
+}
+
+.form-section input {
+width: 100%;
+padding: 8px;
+margin-top: 8px;
+margin-bottom: 15px;
+border-radius: 4px;
+border: 1px solid #ccc;
+}
+
+.form-section button {
+padding: 10px 20px;
+background: #d32f2f;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+footer {
+background: #d32f2f;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+margin: 10px;
+}
+
+.footer-right a {
+background: #ffc107;
+padding: 8px 15px;
+border-radius: 5px;
+color: black;
+text-decoration: none;
+}

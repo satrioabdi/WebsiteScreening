@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>SCREENING TBC</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+   <header>
+
+    <div class="navbar">
+
+      <div class="rekat-logo">
+
+        <img src="{{ url_for('static', filename='rekat.png') }}" alt="Logo Rekat" width="75" height="75">
+
+      </div>
+
+      <nav>
+
+        <a href="#">Beranda</a>
+
+        <a href="#">Profil</a>
+
+        <a href="#">Kegiatan</a>
+
+        <a href="#">Publikasi</a>
+
+        <a class="screening-button" href="#">Screening</a>
+
+      </nav>
+
+    </div>
+
+  </header>
+    
+
+<main>
+    <h1>SCREENING TBC</h1>
+    <p class="subtitle">TBC itu bisa diobati kok. Telaten minum obat dan rutin kontrol. Jangan takut untuk memeriksakan diri!</p>
+
+    <section class="form-section">
+        <h2>Identitas Awal</h2>
+        <form method="POST">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="nik">Nomor Induk Kependudukan (NIK)</label>
+            <input type="text" id="nik" name="nik" required>
+
+            <button type="submit">Selanjutnya</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-left">
+        <p>Yayasan Rekat Peduli Indonesia</p>
+        <p>Jl. A. Yani 242 - 244, Gayungan, Surabaya.</p>
+        <p>WhatsApp: 08111xxxx</p>
+        <p>Email: rekat@rekat.org.id</p>
+    </div>
+</footer>
+
+</body> 
+
+</html>
